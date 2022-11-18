@@ -1,0 +1,11 @@
+ .slds-visual-picker_small .slds-visual-picker__figure{
+    height: 4rem;
+ }
+
+ .slds-visual-picker_small .slds-visual-picker__figure, .slds-visual-picker_small .slds-visual-picker__body {
+    width: 4rem;
+}
+
+.slds-visual-picker{
+    margin: 5px 10px -20px 15px;
+}

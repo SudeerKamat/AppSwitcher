@@ -1,0 +1,94 @@
+<!--
+  @description       : 
+  @author            : SUDEER K
+  @group             : 
+  @last modified on  : 11-18-2022
+  @last modified by  : SUDEER K
+  Modifications Log
+  Ver   Date         Author     Modification
+  1.0   11-17-2022   SUDEER K   Initial Version
+-->
+<template>
+  <lightning-card title="Quick App Switcher">
+      <div class="slds-form-element__control">
+      <div class="slds-visual-picker slds-visual-picker_small">
+      <input type="checkbox" id="visual-picker-31" value="visual-picker-31" name="example-unique-name-1" onclick={sales} />
+      <label for="visual-picker-31">
+      <span class="slds-visual-picker__figure slds-visual-picker__icon slds-align_absolute-center">
+      <span class="slds-icon_container">
+        <img src={salesimg} />
+      </span>
+      </span>
+      <span class="slds-visual-picker__body">
+      <span class="slds-text-title">SALES</span>
+      </span>
+      </label>
+      </div>
+      <div class="slds-visual-picker slds-visual-picker_small">
+      <input type="checkbox" id="visual-picker-32" value="visual-picker-32" name="example-unique-name-2" onclick={services}  />
+      <label for="visual-picker-32">
+      <span class="slds-visual-picker__figure slds-visual-picker__icon slds-align_absolute-center">
+      <span class="slds-is-not-selected">
+      <span class="slds-icon_container">
+        <img src={serviceimg} />
+      </span>
+      </span>
+      </span>
+      <span class="slds-visual-picker__body">
+      <span class="slds-text-title">SERVICE</span>
+      </span>
+      </label>
+      </div>
+      <div class="slds-visual-picker slds-visual-picker_small">
+        <input type="checkbox" id="visual-picker-33" value="visual-picker-33" name="example-unique-name-3" onclick={market}  />
+        <label for="visual-picker-33">
+        <span class="slds-visual-picker__figure slds-visual-picker__icon slds-align_absolute-center">
+        <span class="slds-is-not-selected">
+        <span class="slds-icon_container">
+          <img src={marketingimg} />
+        </span>
+        </span>
+        </span>
+        <span class="slds-visual-picker__body">
+        <span class="slds-text-title">MARKETING</span>
+        </span>
+        </label>
+        </div>
+        <div class="slds-visual-picker slds-visual-picker_small">
+          <input type="checkbox" id="visual-picker-35" value="visual-picker-35" name="example-unique-name-5" onclick={saga}/>
+          <label for="visual-picker-35">
+          <span class="slds-visual-picker__figure slds-visual-picker__icon slds-align_absolute-center">
+          <span class="slds-is-not-selected">
+          <span class="slds-icon_container">
+            <img src={customimg} />
+          </span>
+          </span>
+          </span>
+          <span class="slds-visual-picker__body">
+          <span class="slds-text-title">SFDC SAGA</span>
+          </span>
+          </label>
+          </div>
+          
+        <div class="slds-visual-picker slds-visual-picker_small">
+          <input type="checkbox" id="visual-picker-34" value="visual-picker-34" name="example-unique-name-4" onclick={codebuilder}  />
+          <label for="visual-picker-34">
+          <span class="slds-visual-picker__figure slds-visual-picker__icon slds-align_absolute-center">
+          <span class="slds-is-not-selected">
+          <span class="slds-icon_container">
+            <img src={codebuilderimg} />
+          </span>
+          </span>
+          </span>
+          <span class="slds-visual-picker__body">
+          <span class="slds-text-title">CODE BUILDER</span>
+          </span>
+          </label>
+          </div>
+        </div>
+  </lightning-card>
+</template>
+
+
+
+
